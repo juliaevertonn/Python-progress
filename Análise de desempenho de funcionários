@@ -1,0 +1,13 @@
+# Pessoa com 30% da nota como necessidade de capacitação; 70% dentro da expectativa; 90 excelente
+
+# Recebendo o nome do funcionário e a nota dada
+worker_name = input("Qual o nome do funcionário? ")
+nota_dada = int(input("Qual a nota recebida do funcionário? "))
+
+# Condições para diferentes categorias de desempenho
+if nota_dada >= 90 :
+    print(f'{worker_name} teve um desempenho excelente!')
+elif nota_dada >= 70 and nota_dada <90:
+    print(f'{worker_name}  está dentro da expectativa.')
+else:
+    print(f'{worker_name}  precisa de capacitação.')
